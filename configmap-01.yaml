@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: configmap-01
+  namespace: gitops-benchmark-100
+data:
+  key1: config1
